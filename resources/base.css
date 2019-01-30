@@ -6,6 +6,16 @@
   --blue: #238dc1;
   --darkblue: #125677;
 }
+p, li, a{
+  line-height: 1.8rem !important;
+  font-size: 20px;
+  hyphens: none !important;
+}
+p{
+  display: block;
+  max-width: 40rem;
+  margin: 2rem auto;
+}
 body{
   padding-bottom: 10rem;
 }
