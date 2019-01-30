@@ -1,0 +1,38 @@
+:root{
+  --green: #80BC00;
+  --yellow: #FFD400;
+  --red: #ea6852;
+  --lightblue: #8DCEED;
+  --blue: #238dc1;
+  --darkblue: #125677;
+}
+body{
+  padding-bottom: 10rem;
+}
+h1{
+  font-size: 200%;
+}
+.wrapper{
+  width: 60%;
+  margin: auto;
+  font-family: sans-serif;
+}
+.txtcenter{
+  text-align: center;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10%;
+}
+a{
+  color: black;
+  text-decoration: none;
+  border-bottom: 2px solid var(--blue);
+}
+a:hover{
+  background-color: var(--lightblue);
+}
+li{
+  padding: 0.3rem;
+}
