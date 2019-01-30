@@ -1,2 +1,4 @@
 # reports
 Website reports for the UAB IT website
+
+https://uab-it.github.io/reports/
