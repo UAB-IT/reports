@@ -8,7 +8,7 @@
 }
 p, li, a{
   line-height: 1.8rem !important;
-  font-size: 20px;
+  font-size: 16px;
   hyphens: none !important;
 }
 p{
@@ -32,14 +32,35 @@ h1{
 .wrapper{
   width: 60%;
   margin: auto;
+  max-width: 1000px;
 }
 .txtcenter{
   text-align: center;
 }
-.grid {
+.grid{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-column-gap: 10%;
+}
+@media only screen and (min-width: 1200px) {
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .span2{
+    grid-column: auto / span 2;
+  }
+  .span3{
+    grid-column: auto / span 3;
+  }
+  .mbrk{
+    display: none;
+  }
+  .sectheader{
+    grid-column: auto / span 3;
+  }
+  p, li, a{
+    font-size: 20px;
+  }
 }
 a{
   color: black;

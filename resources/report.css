@@ -8,65 +8,30 @@
 }
 .sect1 span{
   font-weight: bold;
-  font-size: 700%;
+  font-size: 500%;
   line-height: initial;
 }
 .sect2 h3{
   text-align: center;
 }
+@media only screen and (min-width: 700px) {
+  .grid.sect2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
 .sectheader{
-  grid-column: 1/4;
   width: 100%;
   margin-top: 4em;
   text-align: center;
 }
-
-
-.pie {
-  display: block;
-  margin: auto;
-  width: 15rem;
-  height: 15rem;
-  border-radius: 50%;
-  justify-self: center;
-  background-image: conic-gradient(
-    var(--color) calc(3.6deg * var(--value, 0)),
-    #EEEEEE 0
-  );
-  background-origin: border-box;
-  position: relative;
-}
-.pie div{
-  width: 14rem;
-  height: 14rem;
-  background-color: white;
-  position: absolute;
-  top: 0.5rem;
-  right: 0.5rem;
-  border-radius: 100%;
-}
-.pie div section{
-  position: absolute;
-  top: 0.5rem;
-  text-align: center;
-  width: 100%;
-}
-.pie h2{
-  font-size: 300%;
-  margin-top: -1rem;
-  margin-bottom: 0px;
-}
-.pie p{
-  margin-top: 0.5rem;
-}
-
 .bar{
   background: linear-gradient(
     90deg
     , var(--color) var(--value)
     , #eee 0%
   );
-  width: 78%;
+  width: calc(100% - 4rem);
   padding: 0.5rem;
   text-align: left;
   color: white;
@@ -79,4 +44,42 @@
   right: -2.2rem;
   color: black;
   text-align: left;
+}
+.chart-text {
+  font: 16px sans-serif;
+  fill: #000;
+  -moz-transform: translateY(0.25em);
+  -ms-transform: translateY(0.25em);
+  -webkit-transform: translateY(0.25em);
+  transform: translateY(0.25em);
+}
+
+.chart-number {
+  font-size: 0.6em;
+  font-weight: bold;
+  line-height: 1;
+  text-anchor: middle;
+  -moz-transform: translateY(-0.25em);
+  -ms-transform: translateY(-0.25em);
+  -webkit-transform: translateY(-0.25em);
+  transform: translateY(-0.25em);
+}
+
+.chart-score {
+  font-size: 0.15em;
+  text-transform: uppercase;
+  text-anchor: middle;
+  -moz-transform: translateY(0.7em);
+  -ms-transform: translateY(0.7em);
+  -webkit-transform: translateY(0.7em);
+  transform: translateY(-4.5em);
+}
+.chart-goal {
+  font-size: 0.15em;
+  text-transform: uppercase;
+  text-anchor: middle;
+  -moz-transform: translateY(0.7em);
+  -ms-transform: translateY(0.7em);
+  -webkit-transform: translateY(0.7em);
+  transform: translateY(1em);
 }

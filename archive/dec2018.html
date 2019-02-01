@@ -3,13 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="cache-control" content="no-cache" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <title>UABIT Website Report</title>
-    <link rel="stylesheet" href="https://uab-it.github.io/reports/resources/base.css">
-    <link rel="stylesheet" href="https://uab-it.github.io/reports/resources/report.css">
-    <script type="text/javascript" src="https://uab-it.github.io/reports/resources/include.js"></script>
+    <link rel="stylesheet" href="../resources/base.css">
+    <link rel="stylesheet" href="../resources/report.css">
+    <script type="text/javascript" src="../resources/include.js"></script>
   </head>
   <body>
-    <div w3-include-html="https://uab-it.github.io/reports/menu.html"></div>
+    <div w3-include-html="../menu.html"></div>
     <div class="wrapper">
       <h1 style="text-align: center; margin-top: 3em;">UAB IT Website Report // Dec 2018</h1>
 
@@ -20,42 +21,80 @@
 
         <p class="dci"><span>68.1</span></p>
 
-        <div style="grid-column: 2/4;">
+        <div class="span2">
           <h2>Digital Certainty Index</h2>
-          <p>the Digital Certainty Index (DCI) measures the quality and potential impact of your site's digital presence, including its accessibility and usability, its credibility and trustworthiness, and how well-poised it is to respond to SEO challenges. The final DCI Score is calculated as an overall score of points awarded in three categories: Accessibility, Quality Assurance, and SEO.</p>
+          <p>the Digital Certainty Index (DCI) measures the quality and potential impact of your site's digital presence, including its accessibility and usability, its credibility and trustworthiness, and how well-poised it is to respond to SEO challenges.</p>
         </div>
       </section>
 
       <section class="grid sect2">
         <div>
-          <div class="pie" style="--value: 71.5; --color: var(--yellow)">
-            <div><section>
-              <p>Score</p>
-              <h2>71.5</h2>
-              <p>&nbsp;<br>Goal: 78.8</p>
-            </section></div>
-          </div>
-          <h3>Quality Assurance</h3>
+          <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
+            <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
+            <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#eee" stroke-width="3"></circle>
+
+            <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="var(--yellow)" stroke-width="3" stroke-dasharray="71.5 28.5" stroke-dashoffset="25"></circle>
+            <!-- EDIT STROKE-DASHARRAY FOR CIRCLE SEGMENT "VAULE REMAINING" -->
+            <!-- EDIT STROKE WITH VAR(-COLOR) -->
+
+            <g class="chart-text">
+              <text x="50%" y="50%" class="chart-score">
+                Score
+              </text>
+              <text x="50%" y="50%" class="chart-number">
+                71.5
+              </text>
+              <text x="50%" y="50%" class="chart-goal">
+                Goal: 78.8
+              </text>
+            </g>
+          </svg>
+          <h3>Quality<br>Assurance</h3>
         </div>
         <div>
-          <div class="pie" style="--value: 63.8; --color: var(--yellow)">
-            <div><section>
-              <p>Score</p>
-              <h2>63.8</h2>
-              <p>&nbsp;<br>Goal: 74.4</p>
-            </section>
-          </div>
-        </div>
-        <h3>Accessibility</h3>
+          <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
+            <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
+            <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#eee" stroke-width="3"></circle>
+
+            <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="var(--yellow)" stroke-width="3" stroke-dasharray="63.8 36.2" stroke-dashoffset="25"></circle>
+            <!-- EDIT STROKE-DASHARRAY FOR CIRCLE SEGMENT "VAULE REMAINING" -->
+            <!-- EDIT STROKE WITH VAR(-COLOR) -->
+
+            <g class="chart-text">
+              <text x="50%" y="50%" class="chart-score">
+                Score
+              </text>
+              <text x="50%" y="50%" class="chart-number">
+                63.8
+              </text>
+              <text x="50%" y="50%" class="chart-goal">
+                Goal: 78.8
+              </text>
+            </g>
+          </svg>
+        <h3>Accessibility<br>&nbsp;</h3>
         </div>
         <div>
-          <div class="pie" style="--value: 67; --color: var(--yellow)">
-            <div><section>
-              <p>Score</p>
-              <h2>67.0</h2>
-              <p>&nbsp;<br>Goal: 75.1</p>
-            </section></div>
-          </div>
+          <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
+            <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
+            <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#eee" stroke-width="3"></circle>
+
+            <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="var(--yellow)" stroke-width="3" stroke-dasharray="67 33" stroke-dashoffset="25"></circle>
+            <!-- EDIT STROKE-DASHARRAY FOR CIRCLE SEGMENT "VAULE REMAINING" -->
+            <!-- EDIT STROKE WITH VAR(-COLOR) -->
+
+            <g class="chart-text">
+              <text x="50%" y="50%" class="chart-score">
+                Score
+              </text>
+              <text x="50%" y="50%" class="chart-number">
+                67
+              </text>
+              <text x="50%" y="50%" class="chart-goal">
+                Goal: 78.8
+              </text>
+            </g>
+          </svg>
           <h3>Search Engine<br>Optimization</h3>
         </div>
       </section>
@@ -139,7 +178,7 @@
           <div class="bar" style="--value: 18.6%; --color: var(--lightblue)"><span>18.6</span></div>
         </div>
       </section>
-      <div w3-include-html="https://uab-it.github.io/reports/archive.html"></div>
+      <div w3-include-html="../archive.html"></div>
     </div>
     <script>
 includeHTML();
