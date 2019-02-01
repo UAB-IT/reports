@@ -8,23 +8,15 @@
     <script type="text/javascript" src="resources/include.js"></script>
   </head>
   <body>
+    <div w3-include-html="menu.html"></div>
     <style>
-      p, li, a{
-        line-height: 1.8rem !important;
-        font-size: 20px;
-        hyphens: none !important;
-      }
-      p{
-      	display: block;
-      	max-width: 40rem;
-      	margin: 3rem auto;
-      }
-      span{
-        background-color: var(--lightblue);
-      }
+    p{
+      margin: 1rem 1rem;
+    }
     </style>
     <div class="wrapper">
-      <h1 style="text-align: center; margin-top: 3em;">UAB IT Website Report // Glossary</h1>
+      <h1 style="text-align: center; margin: 3em 0px;">UAB IT Website Report // Glossary</h1>
+      <div class="text">
       <div>
         <h3>Digital Certainty Index</h3>
         <p>The Digital Certainty Index (DCI) measures the quality and potential impact of your site's digital presence, including its accessibility and usability, its credibility and trustworthiness, and how well-poised it is to respond to SEO challenges. The final DCI Score is calculated as an overall score of points awarded in three categories: Accessibility, Quality Assurance, and SEO. This metric is sourced from SiteImprove</p>
@@ -33,6 +25,7 @@
         <h3>Quality Assurance</h3>
         <p></p>
       </div>
+    </div>
       <div w3-include-html="https://uab-it.github.io/reports/archive.html"></div>
     </div>
     <script>
