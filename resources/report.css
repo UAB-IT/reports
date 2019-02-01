@@ -1,11 +1,15 @@
 .sect1{
   margin-bottom: 7rem;
 }
+.sect1 .dci{
+  align-self: center;
+  text-align: center;
+  display: inline;
+}
 .sect1 span{
   font-weight: bold;
   font-size: 700%;
-  margin: -0.2em 0px 0px;
-  align-self: center;
+  line-height: initial;
 }
 .sect2 h3{
   text-align: center;
