@@ -8,6 +8,7 @@
     <script type="text/javascript" src="resources/include.js"></script>
   </head>
   <body>
+    <div w3-include-html="https://uab-it.github.io/reports/menu.html"></div>
     <style>
       p, li, a{
         line-height: 1.8rem !important;
@@ -29,6 +30,24 @@
         background-color: var(--lightblue);
       }
     </style>
+    <nav class="topnav" id="Topnav">
+      <div class="wrapper">
+  		<ul>
+  			<li><a href="https://uab-it.github.io/reports/">Home</a></li>
+  			<li><a href="https://uab-it.github.io/reports/glossary">Glossary</a></li>
+  	  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a></ul>
+      </div>
+  	</nav>
+  	<script>
+  		function myFunction() {
+  	   	var x = document.getElementById("Topnav");
+  	    if (x.className === "topnav") {
+  	        x.className += " responsive";
+  	    	} else {
+  	        x.className = "topnav";
+  	    	}
+  		}
+  	</script>
     <div class="wrapper">
       <section class="text">
       <h1 style="text-align: center; margin-top: 3em;">UAB IT Website Report // Home</h1>
