@@ -6,6 +6,9 @@
   --blue: #238dc1;
   --darkblue: #125677;
 }
+@page {
+  size: 8.5in 11in;
+}
 p, li, a{
   line-height: 1.8rem !important;
   font-size: 16px;
@@ -20,6 +23,7 @@ body{
   padding-bottom: 10rem;
   margin: 0px;
   font-family: sans-serif;
+  -webkit-print-color-adjust: exact !important;
 }
 h1{
   font-size: 200%;
@@ -40,9 +44,9 @@ h1{
 .grid{
   display: grid;
   grid-template-columns: 1fr;
-  grid-column-gap: 10%;
+  grid-column-gap: 5%;
 }
-@media only screen and (min-width: 1200px) {
+@media print, (min-width: 1200px) {
   .grid {
     grid-template-columns: 1fr 1fr 1fr;
   }
