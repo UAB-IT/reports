@@ -9,18 +9,109 @@
 	],
 "creatorBuild": "29156",
 "files": {
-	"/docs": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "/docs/docs",
+	"/docs/archive/2018/dec2018.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/docs/archive/2018/dec2018.html",
 		"oF": 0
+		},
+	"/docs/archive/2019/2019-min.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/docs/archive/2019/2019-min-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/docs/archive/2019/jan2019.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/docs/archive/2019/jan2019.html",
+		"oF": 0
+		},
+	"/docs/archive/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/docs/archive/index.html",
+		"oF": 0
+		},
+	"/docs/glossary.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/docs/glossary.html",
+		"oF": 0
+		},
+	"/docs/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/docs/index.html",
+		"oF": 0
+		},
+	"/docs/README.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/docs/README.html",
+		"oF": 0
+		},
+	"/docs/resources/base-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/docs/resources/base-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/docs/resources/framework.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/docs/resources/framework-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/docs/resources/include-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/docs/resources/include-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/docs/resources/report.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/docs/resources/report-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"/source/_archive.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/docs/_archive.html",
+		"oAP": "/source/_archive.html",
 		"oF": 0
 		},
 	"/source/_menu.kit": {
@@ -28,7 +119,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/docs/_menu.html",
+		"oAP": "/source/_menu.html",
 		"oF": 0
 		},
 	"/source/archive/2018/dec2018.kit": {
@@ -36,13 +127,13 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/docs/archive/2018/dec2018.html",
+		"oAP": "/source/archive/2018/dec2018.html",
 		"oF": 0
 		},
 	"/source/archive/2019/2019.json": {
 		"ft": 524288,
 		"oA": 2,
-		"oAP": "/docs/archive/2019/2019-min.json",
+		"oAP": "/source/archive/2019/2019-min.json",
 		"oF": 1,
 		"oO": 0,
 		"oS": 1
@@ -52,7 +143,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/docs/archive/2019/jan2019.html",
+		"oAP": "/source/archive/2019/jan2019.html",
 		"oF": 0
 		},
 	"/source/archive/index.kit": {
@@ -60,7 +151,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/docs/archive/index.html",
+		"oAP": "/source/archive/index.html",
 		"oF": 0
 		},
 	"/source/glossary.kit": {
@@ -68,7 +159,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/docs/glossary.html",
+		"oAP": "/source/glossary.html",
 		"oF": 0
 		},
 	"/source/index.kit": {
@@ -76,7 +167,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/docs/index.html",
+		"oAP": "/source/index.html",
 		"oF": 0
 		},
 	"/source/README.md": {
@@ -88,9 +179,9 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"hM": 0,
-		"oA": 0,
-		"oAP": "/docs/README.html",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "/source/README.html",
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -106,7 +197,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/docs/resources/_variables.css",
+		"oAP": "/source/resources/_variables.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -117,7 +208,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/docs/resources/base-min.css",
+		"oAP": "/source/resources/base-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -129,7 +220,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/docs/resources/framework.css",
+		"oAP": "/source/resources/framework.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -140,7 +231,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/docs/resources/include-min.js",
+		"oAP": "/source/resources/include-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -153,7 +244,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/docs/resources/report.css",
+		"oAP": "/source/resources/report.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -456,8 +547,8 @@
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
 	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
-	"buildFolderActive": 1,
-	"buildFolderName": "docs",
+	"buildFolderActive": 0,
+	"buildFolderName": "build",
 	"cleanBuild": 1,
 	"coffeeLintFlags2": {
 		"arrow_spacing": {
@@ -771,7 +862,7 @@
 			},
 		"id-match": {
 			"active": 0,
-			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true, 'ignoreDestructuring': false}"
 			},
 		"implicit-arrow-linebreak": {
 			"active": 0,
@@ -1271,7 +1362,7 @@
 			},
 		"no-tabs": {
 			"active": 0,
-			"optionString": ""
+			"optionString": "{allowIndentationTabs: false}"
 			},
 		"no-template-curly-in-string": {
 			"active": 0,
@@ -2500,7 +2591,7 @@
 			"flagValue": -1
 			},
 		"unused": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"warnings": {
@@ -2518,7 +2609,7 @@
 		},
 	"uglifyMangleNames": 1,
 	"uglifyReservedNamesString": "$,exports,require",
-	"websiteRelativeRoot": "/docs"
+	"websiteRelativeRoot": ""
 	},
 "settingsFileVersion": "3"
 }
