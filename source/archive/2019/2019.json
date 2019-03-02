@@ -1,8 +1,8 @@
 {
-  "jan": [
-    { "DCI":[ {"score": 68.1, "goal": 74.4, "change": "+0.7" } ] },
-    { "QA":[ {"score": 68.1, "goal": 78.8, "change": "-0.4" } ] },
-    { "ACC":[ {"score": 65.3, "goal": 74.4, "change": "+1.5" } ] },
-    { "SEO":[ {"score": 68, "goal": 75.1, "change": "+1.0" } ] }
-  ]
+  "jan": {
+    "dci": {"score": 68.1, "goal": 74.4, "change": "+0.7"},
+    "qa": {"score": 68.1, "goal": 78.8, "change": "-0.4"},
+    "acc": {"score": 65.3, "goal": 74.4, "change": "+1.5"},
+    "seo": {"score": 68, "goal": 75.1, "change": "+1.0"}
+  }
  }

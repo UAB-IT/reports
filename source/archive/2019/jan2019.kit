@@ -201,11 +201,6 @@
           </div></div>
       </section>
     </div>
-    <header>
-</header>
-
-<section>
-</section>
   </body>
   <script>
     var requestURL = 'https://uab-it.github.io/reports/archive/2019/2019-min.json';
@@ -219,15 +214,15 @@
     populateHeader(metrics);
     };
 
-    function populateHeader(metrics) {
+    function populateHeader() {
     var myH1 = document.createElement('h1');
-    myH1.textContent = metrics.jan.dci.value;
-    header.appendChild(myH1);
+    myH1.textContent = metrics.jan.dci.score;
+    body.appendChild(myH1);
 
-  var myPara = document.createElement('p');
-  myPara.textContent = 'Hometown: ' + metrics.jan.seo.value;
-  header.appendChild(myPara);
-  };
+    var myPara = document.createElement('p');
+    myPara.textContent = 'Hometown: ' + metrics.jan[1][3];
+    body.appendChild(myPara);
+    };
 
   </script>
 </html>
